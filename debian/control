@@ -1,0 +1,19 @@
+Source: libdisplaycore-driver-ili9163
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-ili9163
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: ILI9163.h
+Description: ILI9163 driver for DisplayCore
+ The ILI9163 is used by the ultra-cheap 128x128 displays on eBay
+
+
+
