@@ -6,10 +6,10 @@
 
 class ILI9163 : public DisplayCore {
     private:
-        uint8_t pin_rs;
-        uint8_t pin_cs;
-        uint8_t pin_reset;
         DSPI *_dspi;
+        uint8_t pin_cs;
+        uint8_t pin_rs;
+        uint8_t pin_reset;
 
         p32_ioport *port_rs;
         p32_ioport *port_cs;
