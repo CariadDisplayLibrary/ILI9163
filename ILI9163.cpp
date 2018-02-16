@@ -172,7 +172,7 @@ void ILI9163::setRotation(int m) {
 	}
 }
 
-void ILI9163::invertDisplay(boolean i) {
+void ILI9163::invertDisplay(bool i) {
 	command(i ? 0x21 : 0x20);
 }
 
