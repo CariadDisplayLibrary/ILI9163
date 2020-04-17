@@ -1,2 +1,4 @@
-ILI9163.cpp libraries/DisplayCore/ILI9163
-ILI9163.h libraries/DisplayCore/ILI9163
+documents libraries/DisplayCore/ILI9163
+library.json libraries/DisplayCore/ILI9163
+library.properties libraries/DisplayCore/ILI9163
+src libraries/DisplayCore/ILI9163
