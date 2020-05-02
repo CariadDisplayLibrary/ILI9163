@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-ili9163
+Source: libcariad-driver-ili9163
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-ili9163
+Package: libcariad-driver-ili9163
+Replaces: libdisplaycore-driver-ili9163
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: TFT
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: ILI9163.h
 Description: ILI9163
  The ILI9163 is used by the ultra-cheap 128x128 displays on eBay

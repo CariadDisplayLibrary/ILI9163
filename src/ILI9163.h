@@ -1,10 +1,10 @@
 #ifndef _ILI9163_H
 #define _ILI9163_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <DSPI.h>
 
-class ILI9163 : public DisplayCore {
+class ILI9163 : public Cariad {
     private:
         DSPI *_dspi;
         uint8_t pin_cs;
